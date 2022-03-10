@@ -47,11 +47,11 @@ Through hypothesis and statistical testing and linear regressions, I reviewed th
 
 * The p-value from the above t-test shows 0.04168 significance level. This is below our 0.05% significance level that we have used to measure significance across all lots. We have sufficient evidence to reject the null hypothesis, meaning that across all manufacturing lots, the mean is statistically different to the population mean of 1,500 lbs per square inch.
 
-## Study Design: MechaCar vs Competition
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+## Study Design: MechaCar vs Competition for Families
+In order to quantify how the MechaChar performs against the competition we need to conduct a statitical study using specific metrics that would be of interest to the consumer, more specifically, targeting consumers who have families and are interested in certain metrics. This way, the consumer, can see real-life data and decide if MechaCar is worth buying for their family use. For this statistical study we are taking into account metrics for safety rating, highway fuel efficiency, and number of seats (the more the better). We need data relative to these metrics: a safety rating between 1-5, highway fuel efficiency, and number of seats between 1-8.
+
+H0: The means across safety rating, highway fuel efficiency, and number of seats between MechaCar and Competition **are equal**.  
+HA: At least one or more of the means across safety rating, highway fuel efficiency, and number of seats between MechaCar and Competition **are not equal**.  
+
+We can conduct t-tests to compare the mean of each metric to the mean of each of the competition's relative metrics. We can also conduct a t-test to compare the mean across all metrics to the mean across all metrics of the competition's relative metrics. Using a significance level of 0.05% we can predict if MechaCar differs in safety rating, highway fuel efficiency, and number of seats. 
 
