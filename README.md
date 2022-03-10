@@ -5,7 +5,7 @@ Through hypothesis testing, statistical testing, and linear regressions, I analy
 # Resources
 Data source: MechaCar_mpg.csv; Suspesnsion_Coil.csv
 
-Software & Programming languages: R, Statisitcal Testing in Tidyverse Library 
+Software & Programming languages: R, Statistical Testing in Tidyverse Library 
 
 # Summary 
 
