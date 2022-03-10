@@ -58,5 +58,5 @@ In order to quantify how the MechaChar performs against the competition we need 
 H0: The means across safety rating, highway fuel efficiency, and number of seats between MechaCar and Competition **are equal**.  
 HA: At least one or more of the means across safety rating, highway fuel efficiency, and number of seats between MechaCar and Competition **are not equal**.  
 
-We can conduct t-tests to compare the mean of each metric to the mean of each of the competition's relative metrics. We can also conduct a t-test to compare the mean across all metrics to the mean across all metrics of the competition's relative metrics. Using a significance level of 0.05% we can predict if MechaCar differs in safety rating, highway fuel efficiency, and number of seats. 
+We can conduct two sample t-tests to compare the mean of each metric to the mean of each of the competition's relative metrics. We can also conduct a two sample t-test to compare the mean across all metrics to the mean across all metrics of the competition's relative metrics. Using a significance level of 0.05% we can predict if MechaCar differs in safety rating, highway fuel efficiency, and number of seats. 
 
