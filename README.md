@@ -23,3 +23,18 @@ Lot Summary
 <img width="638" alt="Screen Shot 2022-03-09 at 4 14 44 PM" src="https://user-images.githubusercontent.com/94571150/157561458-d428bf76-4384-4cd3-b6ba-2bae0376c32e.png">
 
 * The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+
+## T-Tests on Suspension Coils
+
+<img width="403" alt="Screen Shot 2022-03-09 at 4 22 21 PM" src="https://user-images.githubusercontent.com/94571150/157562193-b47926f1-f0a0-42c8-9570-3c770a48206d.png">
+
+Lot 1
+<img width="400" alt="Screen Shot 2022-03-09 at 4 23 32 PM" src="https://user-images.githubusercontent.com/94571150/157562255-4c1ec597-21c8-445a-b601-30529f99631e.png">
+
+Lot 2 
+<img width="404" alt="Screen Shot 2022-03-09 at 4 24 01 PM" src="https://user-images.githubusercontent.com/94571150/157562307-d39e1440-9c8f-4352-b7f7-752b5fe13b2d.png">
+
+Lot 3 
+<img width="409" alt="Screen Shot 2022-03-09 at 4 24 25 PM" src="https://user-images.githubusercontent.com/94571150/157562338-651f3ce8-0e01-4086-919d-850bdda9e7d1.png">
+* then briefly summarize your interpretation and findings for the t-test results. 
