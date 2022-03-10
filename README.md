@@ -8,9 +8,11 @@ Through hypothesis and statistical testing and linear regressions, I reviewed th
 
 <img width="763" alt="Screen Shot 2022-03-09 at 4 05 42 PM" src="https://user-images.githubusercontent.com/94571150/157560531-3dc82034-c9ff-451c-85c3-c2c2c8a97ba4.png">
 
-* Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+* To determine which variables provide a significant contribution to the linear model, we must look at the individual variable p-values. Vehicle length, ground clearance, and intercept provided a non-random amount of variance to the mpg values in the dataset.
 * Is the slope of the linear model considered to be zero? Why or why not?
-* Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+* To determine whether the slope of the linear model is considered to be zero or not we must look at the r-squared value and the p-value. The r-squared value is 0.7149, meaning that roughly 71% of the variablilty of our dependent variable (mpg) is explained using this linear model. The p-value is 5.35e-11 or 5.35 x 10-11, which is much smaller than our assumed significance level of 0.05%. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.
+
+*  This linear model could be considered effective in predicting mpg of MechaCar prototypes due to the fact that roughly 71% of the variablilty of our dependent variable (mpg) is explained using this linear model. However, there are only two variables that provide significant contributions to the linear model, meaning that there may be other variables that could help explain the variability of our dependent variable that have not been included in our model. Also, a significant intercept could mean that the significant features (such as vehicle length and ground clearance) may need scaling or transforming to help improve the predictive power of the model.
 
 ## Summary Statistics on Suspension Coils
 
@@ -22,8 +24,7 @@ Lot Summary
 
 <img width="638" alt="Screen Shot 2022-03-09 at 4 14 44 PM" src="https://user-images.githubusercontent.com/94571150/157561458-d428bf76-4384-4cd3-b6ba-2bae0376c32e.png">
 
-* The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
-
+* The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. In the summary statistics on suspension coils above, the total summary across all lots is 62.29356, meaning that it meets design specifications as a whole. However, when we take a look at each lot individually we can see that Lot 1 (0.98) and Lot 2(7.5) meets design specifications but Lot 3(170.29), unfortunately, does not.
 
 ## T-Tests on Suspension Coils
 
