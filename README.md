@@ -1,6 +1,11 @@
 # MechaCar Statistical Analysis
 # Overview
-Through hypothesis and statistical testing and linear regressions, I reviewed the production data for insights that may help the manufacturing team of MechaCar, who is suffering from production troubles that are blocking progress.
+Through hypothesis testing, statistical testing, and linear regressions, I analyzed the production data for insights that may help the manufacturing team of MechaCar, to solve production troubles that are blocking progress.
+
+# Resources
+Data source: MechaCar_mpg.csv; Suspesnsion_Coil.csv
+
+Software & Programming languages: R, Statisitcal Testing in Tidyverse Library 
 
 # Summary 
 
